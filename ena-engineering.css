@@ -148,3 +148,8 @@ li a:hover:not(.active) {
     padding-inline: 144px;
     padding-bottom: 112px;
 }
+.section-9{
+    display: flex;
+    padding-inline: 144px;
+    padding-bottom: 200px;
+}
