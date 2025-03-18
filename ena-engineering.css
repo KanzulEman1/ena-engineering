@@ -116,5 +116,35 @@ li a:hover:not(.active) {
     font-size: 112px;
     padding-top: 128px;
     padding-left: 292px; 
+}
+.container-5{
+    display: flex;
+    padding-top: 88px;
+}
+.div-5{
+    padding-left: 144px;
+    padding-top: 40px;
+}
+.sec5-span{
+      font-size: 20px;
+      margin: 0;
+}
+.Paragraph5{
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 20px;
+    display: flex;
+    letter-spacing: -4%;
+}
+.img-coontainer{
+    padding-left: 112px;
+    padding-right: 104px;
+}
 
+
+
+.section-8{
+    display: flex;
+    padding-inline: 144px;
+    padding-bottom: 112px;
 }
