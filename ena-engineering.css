@@ -99,5 +99,22 @@ li a:hover:not(.active) {
     /* margin-inline: 37px; */
     width: 1366px;
     height: 745px;
+}
+.heading-sec3{
+    text-align: center;
+    font-size: 40px;
+}
+.sec4{
+    background-image: url(/img/sec4-bgimg.png);
+    width: 1366px;
+    height: 406px;
+    margin-top: -60px;
+    color: white;
+}
+.heading-sec4{
+    letter-spacing: 66px;
+    font-size: 112px;
+    padding-top: 128px;
+    padding-left: 292px; 
 
 }
