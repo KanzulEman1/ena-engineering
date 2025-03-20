@@ -5,71 +5,72 @@
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
+    overflow-x: hidden; 
 }
-.main-container{
-    background-image: url(/img/sec1-bg-img.png);
-    background-repeat: no-repeat;
-    width: 1366px;
-    height: 560px;
-    color: white;
-}
-.nav-div{
+.header-section{
+    background-image: url(img/sec1-bg-img.png);
     padding-inline: 85px;
+    background-repeat: no-repeat;
+    width: 1212px;
+    height: 560px;
 }
 nav{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; 
+    font-size: 12px; 
     padding-block: 20px;
-    border-bottom: 0.5PX solid white;    
+    align-items: center;
+    border-bottom: 0.5PX solid white;  
 }
-ol {
-    list-style-type: none;
-  }
-.nav {
-    float: left;
-    font-size: 12px;
-}
-.nav1{
-    float: left;
-    font-size: 12px;
-    padding-left: 56px;
-}
-li a {
-    display: block;
+button{
+    border: 1px solid white;
+    background: none;
     color: white;
-    text-align: center;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+ol{
+    list-style: none;
+    display: flex;
+    gap: 56px;
+    margin: 0;
+}
+a{
+    color: white;
     text-decoration: none;
 }
-  
-li a:hover:not(.active) {
-    background-color: #111;
-}
-.header-btn{
-    text-transform: capitalize;
-    border: 0.5px solid white;
-    background: none;
-    width: 165px;
-    height: 44px;
-    color: white;
-}
-.inner-div{
+h2{
     font-size: 48px;
     line-height: 48px;
-    padding-inline: 527px;
-    padding-block:186px ;
+    padding-inline: 446px;
+    padding-block:119px ;
+    color: white;
+}
+h4{
+    padding-top: 129px;
+    padding-left: 297px;
+    color: white;
+    letter-spacing: 66px;
+    font-size: 112px;
+} 
+h5{
+    font-size: 32px;
+    text-align: center;
+}
+p{
+    letter-spacing: -4%;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+span{
+    font-weight: 700;
+    color: black;
 }
 .section2{
     padding-top: 114px;
     padding-left: 359px;
-}
-.Paragraph2{
-    font-size: 20px;
-    line-height: 24px;
-    padding-top: 32px;
-    text-align: center;
-    letter-spacing: -4%;
-    width: 759px;
 }
 .red-line{
     background-color:#E03740 ; 
@@ -82,74 +83,70 @@ li a:hover:not(.active) {
     padding-inline: 144px;
     padding-bottom: 112px;
 }
-.heading{
-    font-size: 32px;
-    text-align: center;
-}
-.list{
-    font-size: 20px;
-    line-height: 24px;
-    padding-top: 24px;
-    text-align: center;
-}
 .sec2-inner-div2{
-    padding-left: 98px;
+    padding-right: 51px;
 }
-.sec3{
-    /* margin-inline: 37px; */
-    width: 1366px;
-    height: 745px;
+.ENA-deep{
+    padding-block: 100px;
 }
-.heading-sec3{
-    text-align: center;
-    font-size: 40px;
-}
-.sec4{
+.mepfplv{
     background-image: url(/img/sec4-bgimg.png);
+    background-repeat: no-repeat;
     width: 1366px;
-    height: 406px;
-    margin-top: -60px;
-    color: white;
+    height: 400px;
+    padding-bottom: 97px;
 }
-.heading-sec4{
-    letter-spacing: 66px;
-    font-size: 112px;
-    padding-top: 128px;
-    padding-left: 292px; 
-}
-.container-5{
+.flex-box{
     display: flex;
-    padding-top: 88px;
+    padding-block: 88px;
+    padding-right: 100px;
 }
-.div-5{
+.HVAC{
+    padding-right: 62px;
     padding-left: 144px;
-    padding-top: 40px;
+} 
+.HVAC p{
+    text-align: start;
 }
-.sec5-span{
-      font-size: 20px;
-      margin: 0;
-}
-.Paragraph5{
-    font-size: 20px;
-    line-height: 24px;
-    padding-top: 20px;
+.flex-box2{
     display: flex;
-    letter-spacing: -4%;
+    padding-block: 88px;
+    padding-left: 100px;
 }
-.img-coontainer{
-    padding-left: 112px;
-    padding-right: 104px;
+.HVAC-2{
+    padding-left: 75px;
+    padding-right: 100px;
 }
-
-
-
+.HVAC-2 p{
+    text-align:start;
+}
+.Plumbing{
+    padding-right: 54px;
+    padding-left: 100px;
+}
+.Plumbing p{
+    text-align: start;
+}
+.flex-box-3{
+    display: flex;
+    padding-block: 88px;
+    padding-right:64px;
+}
 .section-8{
     display: flex;
-    padding-inline: 144px;
+    padding-inline: 1px;
     padding-bottom: 112px;
 }
 .section-9{
     display: flex;
     padding-inline: 144px;
     padding-bottom: 200px;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-inline: 144px;
+    padding-top: 72px;
+    padding-bottom: 77px;
 }
