@@ -121,8 +121,9 @@ span{
     text-align:start;
 }
 .Plumbing{
-    padding-right: 54px;
+    padding-right: 84px;
     padding-left: 100px;
+    width: 35%;
 }
 .Plumbing p{
     text-align: start;
@@ -130,7 +131,17 @@ span{
 .flex-box-3{
     display: flex;
     padding-block: 88px;
-    padding-right:64px;
+    padding-right:50px;
+}
+
+.img-div{
+    display: flex;
+    gap: 8px;
+}
+.img-div img{
+ width: 55%;
+   
+
 }
 .section-8{
     display: flex;
