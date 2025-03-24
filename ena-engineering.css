@@ -5,13 +5,12 @@
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
-    overflow-x: hidden; 
+    
 }
 .header-section{
     background-image: url(img/sec1-bg-img.png);
     padding-inline: 85px;
     background-repeat: no-repeat;
-    width: 1212px;
     height: 560px;
 }
 nav{
@@ -43,8 +42,8 @@ a{
 h2{
     font-size: 48px;
     line-height: 48px;
-    padding-inline: 446px;
-    padding-block:119px ;
+    padding-left: 446px;
+    padding-top:119px ;
     color: white;
 }
 h4{
@@ -59,24 +58,35 @@ h5{
     text-align: center;
 }
 p{
-    letter-spacing: -4%;
     font-size: 20px;
     line-height: 24px;
     text-align: center;
 }
-span{
-    font-weight: 700;
-    color: black;
+span{ 
+    color: #E03740;
+     font-size: 12px;
+}
+ul li{
+    padding-bottom: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+
 }
 .section2{
     padding-top: 114px;
-    padding-left: 359px;
+    padding-left: 300px;
 }
-.red-line{
+.section2 p{
+    padding-top: 32px;
+    padding-bottom: 112px; 
+    width: 759px;
+}
+.section2 hr{
     background-color:#E03740 ; 
-    width: 150px;
+    width: 130px;
     height: 4px;
-    margin-left: 297px;
+    margin-left: 320px;
 }
 .sec2-inner-div{
     display: flex;
@@ -86,13 +96,18 @@ span{
 .sec2-inner-div2{
     padding-right: 51px;
 }
+.section3 {
+    padding-inline: 37px;
+}
+.section3 img{
+    width: 100%;
+}
 .ENA-deep{
-    padding-block: 100px;
+    padding-top: 70px;
 }
 .mepfplv{
-    background-image: url(/img/sec4-bgimg.png);
+    background-image: url(/img/sec4-bgimg.png) ;
     background-repeat: no-repeat;
-    width: 1366px;
     height: 400px;
     padding-bottom: 97px;
 }
@@ -139,9 +154,10 @@ span{
     gap: 8px;
 }
 .img-div img{
- width: 55%;
-   
-
+    width: 55%;
+}
+.security{
+    padding-left: 56px;
 }
 .section-8{
     display: flex;
@@ -152,6 +168,27 @@ span{
     display: flex;
     padding-inline: 144px;
     padding-bottom: 200px;
+}
+.sec-9-img{
+    padding-right: 56px;
+}
+.footer-inner-div{
+    display: flex;
+}
+.navigation{
+    padding-left: 32px;
+}
+.about-contact{
+    display: flex;
+    gap: 12px;
+}
+.location{
+    display: flex;
+    padding-left: 663px;
+    margin-top: -88px ;
+}
+.email{
+    padding-left: 56px;
 }
 .footer-section{
     background-color: black;
