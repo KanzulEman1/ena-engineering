@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 12px; 
+    padding-block: 20px;
+    align-items: center;
+    border-bottom: 0.5PX solid white;  
+    background-color: #141515;
+    padding-inline: 144px;
+}
+button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 56px;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
