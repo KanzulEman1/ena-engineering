@@ -37,7 +37,21 @@ a{
 }
 section{
     display: flex;
-    padding-left: 144px;
+    padding-left: 110px;
     padding-top: 112px;
+}
+h1{
+font-weight: 700;
+font-size: 40px;
+line-height: 56px;
+}
+div{
+    padding-left: 65px;
+    padding-right: 153px;
+}
+p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
 }
 
