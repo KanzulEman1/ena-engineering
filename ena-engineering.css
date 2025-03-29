@@ -29,7 +29,7 @@ button{
     padding: 10px 20px;
     text-transform: capitalize;
 }
-ol{
+ul{
     list-style: none;
     display: flex;
     gap: 56px;
@@ -38,6 +38,7 @@ ol{
 a{
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 h2{
     font-size: 48px;
@@ -66,12 +67,11 @@ span{
     color: #E03740;
      font-size: 12px;
 }
-ul li{
+li{
     padding-bottom: 25px;
     font-size: 20px;
     line-height: 25px;
-    text-align: center;
-
+    text-align: center; 
 }
 .section2{
     padding-top: 114px;
@@ -153,6 +153,9 @@ ul li{
     display: flex;
     gap: 8px;
 }
+.gap{
+    padding-top: 8px;
+}
 .img-div img{
     width: 55%;
 }
@@ -190,6 +193,9 @@ ul li{
 .email{
     padding-left: 56px;
 }
+.email a{
+    text-decoration: underline;
+}
 .footer-section{
     background-color: black;
     display: flex;
@@ -198,3 +204,4 @@ ul li{
     padding-top: 72px;
     padding-bottom: 77px;
 }
+
