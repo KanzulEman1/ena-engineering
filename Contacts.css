@@ -4,8 +4,7 @@
 
 body{
     margin: 0;
-    font-family: "Roboto", sans-serif;
-    
+    font-family: "Roboto", sans-serif; 
 }
 nav{
     list-style: none;
@@ -35,5 +34,10 @@ a{
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+section{
+    display: flex;
+    padding-left: 144px;
+    padding-top: 112px;
 }
 
