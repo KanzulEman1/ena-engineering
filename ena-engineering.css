@@ -90,11 +90,11 @@ li{
 }
 .sec2-inner-div{
     display: flex;
-    padding-inline: 144px;
+    padding-inline: 90px;
     padding-bottom: 112px;
 }
 .sec2-inner-div2{
-    padding-right: 51px;
+    padding-right: 55px;
 }
 .section3 {
     padding-inline: 37px;
@@ -127,7 +127,6 @@ li{
     display: flex;
     padding-block: 88px;
     padding-left: 100px;
-
 }
 .HVAC-2{
     padding-left: 75px;
@@ -170,7 +169,7 @@ li{
 }
 .section-9{
     display: flex;
-    padding-inline: 144px;
+    padding-inline: 114px;
     padding-bottom: 200px;
 }
 .sec-9-img{

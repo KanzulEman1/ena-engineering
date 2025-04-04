@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family: "Roboto", sans-serif; 
+    background-color: #141515;
 }
 nav{
     list-style: none;
@@ -41,17 +42,90 @@ section{
     padding-top: 112px;
 }
 h1{
-font-weight: 700;
-font-size: 40px;
-line-height: 56px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
 }
-div{
-    padding-left: 65px;
-    padding-right: 153px;
+.div{
+    padding-left: 59px;
+    padding-right: 75px;
 }
 p{
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
+}
+i{
+    padding-left: 8px;
+}
+.mail{
+    padding: 0;
+    padding-block: 40px;
+}
+.mail a{
+    color: #E03740;
+    text-decoration: underline;
+}
+.mail i{
+    padding-right: 8px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #929292;
+    padding-block: 20px;
+    padding-right: 297px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+label{
+    color: #929292;
+    font-weight: 400;
+    font-size:13px;
+}
+form{
+    padding-bottom: 50px;
+}
+form button {
+    margin-top: 32px;
+    width: 130px;
+    height: 45px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    border: 0.5px solid #E03740;
+    background: none;
+    cursor: pointer;
+    color: #E03740;
+  }
+form button i{
+    padding-left: 5px;
+}
+.footer-inner-div{
+    display: flex;
+}
+.navigation{
+    padding-left: 32px;
+}
+.about-contact{
+    display: flex;
+    gap: 12px;
+}
+.location{
+    display: flex;
+    padding-left: 663px;
+    margin-top: -88px ;
+}
+.email{
+    padding-left: 56px;
+}
+.email a{
+    text-decoration: underline;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-inline: 144px;
+    padding-top: 72px;
+    padding-bottom: 77px;
 }
 
