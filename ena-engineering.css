@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* Desktop */
+@media (min-width: 1201px) {
+    /* Styles for desktops and large screens */
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 
@@ -49,7 +52,7 @@ h2{
 }
 h4{
     padding-top: 129px;
-    padding-left: 297px;
+    padding-left: 267px;
     color: white;
     letter-spacing: 66px;
     font-size: 112px;
@@ -191,7 +194,7 @@ li{
     margin-top: -88px ;
 }
 .email{
-    padding-left: 56px;
+    padding-left: 55px;
 }
 .email a{
     text-decoration: underline;
@@ -203,5 +206,192 @@ li{
     padding-inline: 144px;
     padding-top: 72px;
     padding-bottom: 77px;
-}
+} 
+  }
 
+
+
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+     /* Styles for desktops and large screens */
+     @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+     body{
+         margin: 0;
+         font-family: "Roboto", sans-serif;
+         
+     }
+     .header-section{
+         background-image: url(img/sec1-bg-img.png);
+         padding-inline: 16px;
+         background-repeat: no-repeat;
+         height: 560px;
+     }
+     nav{
+         list-style: none;
+         display: flex;
+         justify-content: space-between; 
+         font-size: 12px; 
+         padding-block: 20px;
+         border-bottom: 0.5PX solid white;  
+     }
+     button{
+         display: none;
+     }
+     ul{
+         list-style: none;
+         display: flex;
+         gap: 56px;
+     }
+     a{
+         color: white;
+         text-decoration: none;
+         cursor: pointer;
+     }
+     h2{
+         font-size: 48px;
+         line-height: 48px;
+         padding-inline: 66px;
+         text-align: center;
+         padding-top:119px ;
+         color: white;
+     }
+     h4{
+         padding-block: 100px;
+         padding-inline: 45px;
+         color: white;
+         letter-spacing: 20px;
+         font-size: 40px;
+     } 
+     h5{
+         font-size: 32px;
+         text-align: center;
+     }
+     p{
+         font-size: 20px;
+         line-height: 24px;
+         text-align: center;
+     }
+     span{ 
+         color: #E03740;
+          font-size: 12px;
+     }
+     li{
+         padding-bottom: 25px;
+         font-size: 20px;
+         line-height: 25px;
+         text-align: center; 
+     }
+     .section2{
+         padding-top: 114px;
+         padding-inline: 5px;
+     }
+     .section2 hr{
+        background-color:#E03740 ; 
+        width: 150px;
+        height: 4px;
+        margin-left: 120px;
+    }
+     .section2 p{
+         padding-top: 32px;
+         padding-bottom: 40px; 
+         width: 376px;
+    }
+     .sec2-inner-div{
+         padding-inline: 16px;
+         padding-bottom: 40px;
+     }
+     .section3 {
+         padding-inline: 16px;
+         padding-bottom: 40px;
+     }
+     .section3 img{
+         width: 100%;
+     }
+     .mepfplv{
+         background-image: url(/img/sec4-bgimg.png) ;
+         background-repeat: no-repeat;
+         width: 100%;
+     }
+     .HVAC{
+       padding-inline: 16px;
+     } 
+     .HVAC p{
+         text-align: start;
+     }
+     .flex-box2{
+         padding-block: 40px;
+     }
+     .HVAC-2{
+       padding-inline: 16px;
+     }
+     .HVAC-2 p{
+         text-align:start;
+     }
+     .Plumbing{
+         padding-inline: 16px;
+     }
+     .Plumbing p{
+         text-align: start;
+     }
+     .img-div{
+         display: flex;
+         gap: 8px;
+         padding-inline: 16px;
+     }
+     .gap{
+         padding-top: 8px;
+         padding-inline: 16px;    
+     }
+     .gap img{
+            width: 102%;
+     }
+     .img-div img{
+         width: 50%;
+     }
+     .security{
+         padding-inline: 16px;
+     }
+     .section-8{
+         display: flex;
+         padding-inline: 1px;
+         padding-bottom: 112px;
+     }
+     .section-9{ 
+         padding-inline: 16px;
+         padding-bottom: 80px;
+     }
+     .section-9 img{
+            width: 100%;
+     }
+     .sec-9-img{
+         padding-bottom: 12px;
+     }
+     .navigation{
+        padding-block: 24px;
+     }
+     .about-contact{
+         display: flex;
+         gap: 12px;
+         padding-left: 132px;
+     }
+     .email{
+         padding-top: 24px;
+     }
+     .email a{
+         text-decoration: underline;
+     }
+     .footer-section{
+         background-color: black;
+         text-align: center;
+         padding-top: 37px;
+         padding-bottom: 32px;
+     } 
+}
+    
+
+    /* Styles for small mobile devices */
+  
