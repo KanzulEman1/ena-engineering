@@ -41,11 +41,36 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-h2{
-    font-size: 48px;
-    line-height: 62px;
+h1{
+    font-size: 58px;
+    line-height: 70px;
     text-align: center;
     padding-inline: 403px;
-    padding-top:163px ;
+    padding-top:149px ;
     color: white;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
+    padding-top: 112px;
+    padding-bottom: 80px;
+}
+.glance{
+    background-color: rgba(245, 245, 245, 1);
+    margin-top: -40px;
+}
+table{
+    width: 100%;
+    padding-inline: 144px;
+    padding-bottom: 112px;
+}
+table td{
+    font-size: 18px;
+    text-align: center;
+    vertical-align: bottom;
+}
+table span{
+    font-size: 14px;
+    vertical-align: bottom;
 }
