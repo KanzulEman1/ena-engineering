@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+header{
+    background-image: url(img/market-bgimg.png);
+    background-repeat: no-repeat;
+    height: 790px;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 12px; 
+    padding-block: 20px;
+    align-items: center;
+    padding-inline: 144px; 
+}
+button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+hr{
+    width: 79%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 56px;
+    padding-left: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h2{
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    padding-inline: 403px;
+    padding-top:163px ;
+    color: white;
+}
