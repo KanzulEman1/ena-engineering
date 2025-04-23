@@ -56,6 +56,13 @@ h5{
     padding-top: 112px;
     padding-bottom: 80px;
 }
+h2{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 48px;
+}
 .glance{
     background-color: rgba(245, 245, 245, 1);
     margin-top: -40px;
@@ -73,4 +80,65 @@ table td{
 table span{
     font-size: 14px;
     vertical-align: bottom;
+}
+.marketing{
+    padding-inline: 144px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-inline: 114px;
+    padding-bottom: 112px;
+}
+  .grid > div {
+    border: 2px solid white;
+    padding: 55px; 
+    font-size: 18px;
+    color: white;
+}
+.Multi-Family{
+    background-image:url(img/multi-family.png);
+    
+}
+.Retail{
+    background-image:url(img/retail.png);
+}
+.Hotels{
+    background-image:url(img/hotels.png);
+}
+.Restaurants{
+    background-image:url(img/restaurant.png);
+}
+.Higher{
+    background-image:url(img/higher.png);
+}
+.Entertainment{
+    background-image:url(img/entertainment.png);
+}
+.Mixed{
+    background-image:url(img/mixed.png);
+}
+.Cannabis{
+    background-image:url(img/cannabis.png);
+}
+.Commercial{
+    background-image:url(img/commercial.png);
+}
+.Parks{
+    background-image:url(img/parks.png);
+}
+.Corporate{
+    background-image:url(img/corporate.png);
+}
+.Senior{
+    background-image:url(img/senior.png);
+}
+.Casinos{
+    background-image:url(img/casinos.png);
+}
+.K-12{
+    background-image:url(img/k-12.png);
+}
+.Data-Centers{
+    background-image:url(img/data-center.png);
 }
