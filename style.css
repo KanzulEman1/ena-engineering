@@ -97,8 +97,7 @@ table span{
     color: white;
 }
 .Multi-Family{
-    background-image:url(img/multi-family.png);
-    
+    background-image:url(img/multi-family.png);  
 }
 .Retail{
     background-image:url(img/retail.png);
@@ -142,3 +141,33 @@ table span{
 .Data-Centers{
     background-image:url(img/data-center.png);
 }
+
+.footer-inner-div{
+    display: flex;
+}
+.navigation{
+    padding-left: 32px;
+}
+.about-contact{
+    display: flex;
+    gap: 12px;
+}
+.location{
+    display: flex;
+    padding-left: 663px;
+    margin-top: -88px ;
+}
+.email{
+    padding-left: 55px;
+}
+.email a{
+    text-decoration: underline;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-inline: 144px;
+    padding-top: 72px;
+    padding-bottom: 77px;
+} 
