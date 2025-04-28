@@ -18,7 +18,7 @@ nav{
     font-size: 12px; 
     padding-block: 20px;
     align-items: center;
-    border-bottom: 0.5PX solid white;  
+    border-bottom: 1px solid white;  
 }
 button{
     border: 1px solid white;
@@ -32,6 +32,7 @@ ul{
     display: flex;
     gap: 56px;
     margin: 0;
+    padding-left: 0;
 }
 a{
     color: white;
@@ -231,41 +232,63 @@ h4{
 @media (max-width: 480px) {
      /* Styles for desktops and large screens */
 
-     .header-section{
-         padding-inline: 16px;
-     }
      button{
-         display: none;
-     }
-     h2{
+        display: none;
+    }
+    nav ul{
+        order:2;  
+        font-size: 22px;
+    }
+    nav{
+        padding-inline: 16px;
+    }
+    hr{
+        width: 100%;
+    }
+    h2{
          padding-inline: 66px;
          text-align: center;
+         font-size: 62px;
      }
-     h4{
+     h3{
+        font-size: 25px;
+     }
+    h4{
          padding-top: 190px;
-         padding-left: 70px;
+         padding-left: 26px;
          letter-spacing: 20px;
-         font-size: 40px;
+         font-size: 58px;
      } 
+     h5{
+        font-size: 45px;
+     }
+     p{
+        font-size: 23px;
+     }
+     .mepfplv{
+        padding-bottom: 0;
+     }
      .section2{
          padding-inline: 5px;
      }
      .section2 hr{
-        background-color:#E03740 ; 
         width: 143px;
         height: 4px;
         margin-left: 133px;
     }
      .section2 p{
-         padding-top: 32px;
-         padding-bottom: 40px;
-         padding-inline: 16px; 
-         width: 393px;
+         padding-bottom: 0px;
+         width: 100%;
+         padding-inline: 0px;
+         font-size: 23px;
     }
      .sec2-inner-div{
         display: block;
          padding-inline: 16px;
          padding-bottom: 40px;
+     }
+     .sec2-inner-div li{
+        font-size: 22px;
      }
      .sec2-inner-div2{
         padding: 0;
@@ -280,32 +303,26 @@ h4{
      .section3 img{
          width: 100%;
      }
-     .mepfplv{
-         background-image: url(/img/sec4-bgimg.png) ;
-         background-repeat: no-repeat;
-         width: 100%;
-         height: auto;
-     }
      .HVAC{
-       padding-inline: 16px;
+       padding-inline: 10px;
      } 
      .HVAC p{
          text-align: start;
      }
      .flex-box{
         display: block;
-        padding-block: 40px;
-        padding-inline: 16px;
+        padding-block: 0px;
+        padding-inline: 10px;
      }
      .flex-box2{
         display: block;
-         padding-block: 40px;
-         padding-inline: 16px;
+         padding-block: 0px;
+         padding-inline: 10px;
      }
      .flex-box-3{
         display: block;
-         padding-block: 40px;
-         padding-inline: 16px;
+         padding-block: 0px;
+         padding-inline: 10px;
      }
      .HVAC-2{
        padding-inline: 16px;
@@ -315,30 +332,28 @@ h4{
      }
      .Plumbing{
         padding: 0;
-     width: 100%;
+        width: 100%;
      }
      .Plumbing p{
          text-align: start;
      }
      .img-div{
          display: flex;
-         gap: 8px;
-    
+         gap: 4px;
      }
      .gap{
          padding-top: 8px;
      }
      .gap img{
-            width: 102%;
+            width: 97%;
      }
      .img-div img{
-         width: 50%;
+         width: 48%;
      }
      .security{
-         padding-inline: 16px;
+         padding-inline: 10px;
      }
-     .section-8{
-         display: flex;
+    .section-8{
          padding-inline: 1px;
          padding-bottom: 112px;
      }
@@ -349,43 +364,42 @@ h4{
      }
      .section-9 img{
             width: 100%;
+            padding-left: 0;
      }
      .sec-9-img{
          padding-bottom: 12px;
      }
-
-     .footer-inner-div{
+     footer span{
+        font-size: 18px;
+    }
+    footer a{
+        font-size: 23px;
+    }
+    .footer-inner-div{
         display: block;
     }
     .navigation{
-        text-align: center;
         padding-bottom: 24px;
         padding-left: 0;
     }
     .about-contact{
-        padding-left: 150px;
+        padding-left: 134px;
         padding-bottom: 24px;
         gap: 12px;
     }
     .location{
         display: block;
         padding-left: 0px;
-        padding-block: 40px;
+        padding-top: 40px;
     }
     .email{
         padding-left: 0px;
-        padding-block: 24px;
-    }
-    .email a{
-        text-decoration: underline;
     }
     .footer-section{
-        background-color: black;
+      padding-block: 32px;
         display: block;
-        color: white;
         text-align: center;
         padding-inline: 0px;
-        padding-top: 40px;  
     } 
     footer img{
         padding-bottom: 24px;

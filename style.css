@@ -4,7 +4,6 @@
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
-    
 }
 header{
     background-image: url(img/market-bgimg.png);
@@ -54,7 +53,7 @@ h5{
     font-size: 25px;
     line-height: 32px;
     padding-top: 112px;
-    padding-bottom: 80px;
+    padding-bottom: 35px;
 }
 h2{
     font-size: 40px;
@@ -64,37 +63,68 @@ h2{
     padding-bottom: 48px;
 }
 .glance{
-    background-color: rgba(245, 245, 245, 1);
-    margin-top: -40px;
-}
-table{
-    width: 100%;
-    padding-inline: 144px;
+    background-color: #F5F5F5;
+    color: black;
+    padding-top: 1px;
     padding-bottom: 112px;
 }
-table td{
-    font-size: 18px;
-    text-align: center;
-    vertical-align: bottom;
-}
-table span{
+.text {
+    display: flex;
+    margin-left: 196px;
+    gap: 50px;
+  }
+.value {
+    color: gray;
+    font-weight: 300;
     font-size: 14px;
-    vertical-align: bottom;
-}
+    list-style-type: none;
+    padding-top: 10px;
+  }
+  .text2 {
+    padding-bottom: 10px;
+  }
+  .text div {
+    margin-right: 30px;
+  }
+  .text3{
+      margin-top: -8px;
+  }
+  .text div p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+  }
+.para{
+      margin-top: 0;
+  }
 .marketing{
     padding-inline: 144px;
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding-inline: 114px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
     padding-bottom: 112px;
+    padding-inline: 90px;
 }
-  .grid > div {
-    border: 2px solid white;
-    padding: 55px; 
+.grid > div {
+    width: 227px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.grid p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
     font-size: 18px;
     color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 .Multi-Family{
     background-image:url(img/multi-family.png);  
@@ -141,7 +171,10 @@ table span{
 .Data-Centers{
     background-image:url(img/data-center.png);
 }
-
+footer span{
+        color: #E03740;
+         font-size: 12px;
+}
 .footer-inner-div{
     display: flex;
 }
@@ -170,4 +203,108 @@ table span{
     padding-inline: 144px;
     padding-top: 72px;
     padding-bottom: 77px;
-} 
+}
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+    button{
+        display: none;
+    }
+    nav ul{
+        order:2;  
+        font-size: 19px;
+    }
+    nav{
+        padding-inline: 16px;
+    }
+    hr{
+        width: 100%;
+    }
+    h1{
+        padding-inline: 20px;
+        font-size: 40px;
+    }
+    h5{
+        padding-bottom: 0;
+        padding-inline: 46px;
+        font-size: 40px;
+        line-height: 42px;
+        padding-top: 40px;
+    }
+    .glance{
+        padding-bottom: 0;
+    }
+    .text{
+        margin-left: 0;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        display: block;
+    }
+    .text div p{
+        font-size: 25px;
+    }
+    .text3{
+         padding-left: 28px;
+    }
+    .value{
+        font-size: 20px;
+        padding-left: 43px;
+
+    }
+    h2{
+        padding-block: 40px;
+        font-size: 45px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        padding-inline: 10px;
+        padding-bottom: 40px;
+    }
+    .grid > div {
+        width: 100%;
+        height: 200px;
+    }
+    .grid p {
+        font-size: 20px;
+        padding: 4px 8px;
+    }
+   .glance{
+        margin-top: -62px;
+    }
+    footer span{
+        font-size: 18px;
+    }
+    footer a{
+        font-size: 23px;
+    }
+    .footer-inner-div{
+        display: block;
+    }
+    .navigation{
+        padding-bottom: 24px;
+        padding-left: 0;
+    }
+    .about-contact{
+        padding-left: 120px;
+        padding-bottom: 24px;
+        gap: 12px;
+    }
+    .location{
+        display: block;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .email{
+        padding-left: 0px;
+    }
+    .footer-section{
+      padding-block: 32px;
+        display: block;
+        text-align: center;
+        padding-inline: 0px;
+    } 
+    footer img{
+        padding-bottom: 24px;
+    }
+}
+    /* Styles for desktops and large screens */
