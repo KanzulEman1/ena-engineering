@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-image: url(img/market-bgimg.png);
+    background-repeat: no-repeat;
+    height: 790px;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 12px; 
+    padding-block: 20px;
+    align-items: center;
+    padding-inline: 144px; 
+}
+button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+hr{
+    width: 79%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 56px;
+    padding-left: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+h1{
+    font-size: 58px;
+    line-height: 70px;
+    text-align: center;
+    padding-inline: 403px;
+    padding-top:149px ;
+    color: white;
+}
+h5{
+    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
+    padding-top: 112px;
+    padding-bottom: 35px;
+}
+h2{
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 48px;
+}
+.glance{
+    background-color: #F5F5F5;
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 112px;
+}
+.glance-table {
+    display: flex;
+    margin-left: 196px;
+    gap: 50px;
+  }
+.value {
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;
+    list-style-type: none;
+    padding-top: 10px;
+  }
+  .lighting {
+    padding-bottom: 10px;
+  }
+  .glance-table div {
+    margin-right: 30px;
+  }
+  .plumbing{
+      margin-top: -8px;
+  }
+  .text div p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+  }
+.budget{
+      margin-top: 0;
+  }
+.marketing{
+    padding-inline: 15px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    padding-bottom: 112px;
+    padding-inline: 90px;
+}
+.grid > div {
+    width: 227px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.grid p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.multi-family{
+    background-image:url(img/multi-family.png);  
+}
+.retail{
+    background-image:url(img/retail.png);
+}
+.hotels{
+    background-image:url(img/hotels.png);
+}
+.restaurants{
+    background-image:url(img/restaurant.png);
+}
+.higher{
+    background-image:url(img/higher.png);
+}
+.entertainment{
+    background-image:url(img/entertainment.png);
+}
+.mixed{
+    background-image:url(img/mixed.png);
+}
+.cannabis{
+    background-image:url(img/cannabis.png);
+}
+.commercial{
+    background-image:url(img/commercial.png);
+}
+.parks{
+    background-image:url(img/parks.png);
+}
+.corporate{
+    background-image:url(img/corporate.png);
+}
+.senior{
+    background-image:url(img/senior.png);
+}
+.casinos{
+    background-image:url(img/casinos.png);
+}
+.k-12{
+    background-image:url(img/k-12.png);
+}
+.data-centers{
+    background-image:url(img/data-center.png);
+}
+footer span{
+        color: #E03740;
+         font-size: 12px;
+}
+.footer-inner-div{
+    display: flex;
+}
+.navigation{
+    padding-left: 32px;
+}
+.about-contact{
+    display: flex;
+    gap: 12px;
+}
+.location{
+    display: flex;
+    padding-left: 663px;
+    margin-top: -88px ;
+}
+.email{
+    padding-left: 55px;
+}
+.email a{
+    text-decoration: underline;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-inline: 144px;
+    padding-top: 72px;
+    padding-bottom: 77px;
+}
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+    button{
+        display: none;
+    }
+    nav ul{
+        order:2;  
+        font-size: 19px;
+    }
+    nav{
+        padding-inline: 16px;
+    }
+    hr{
+        width: 100%;
+    }
+    h1{
+        padding-inline: 20px;
+        font-size: 40px;
+    }
+    h5{
+        padding-bottom: 0;
+        padding-inline: 46px;
+        font-size: 40px;
+        line-height: 42px;
+        padding-top: 40px;
+    }
+    .marketing{
+        padding-inline: 0;
+    }
+    .glance{
+        padding-bottom: 0;
+    }
+    .glance-table{
+        margin-left: 0;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        display: block;
+    }
+    .glance-table div p{
+        font-size: 25px;
+    }
+    .budget{
+         padding-left: 28px;
+    }
+    .value{
+        font-size: 20px;
+        padding-left: 43px;
+
+    }
+    h2{
+        padding-block: 40px;
+        font-size: 45px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        padding-inline: 10px;
+        padding-bottom: 40px;
+    }
+    .grid > div {
+        width: 100%;
+        height: 200px;
+    }
+    .grid p {
+        font-size: 20px;
+        padding: 4px 8px;
+    }
+   .glance{
+        margin-top: -62px;
+    }
+    footer span{
+        font-size: 18px;
+    }
+    footer a{
+        font-size: 23px;
+    }
+    .footer-inner-div{
+        display: block;
+    }
+    .navigation{
+        padding-bottom: 24px;
+        padding-left: 0;
+    }
+    .about-contact{
+        padding-left: 120px;
+        padding-bottom: 24px;
+        gap: 12px;
+    }
+    .location{
+        display: block;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .email{
+        padding-left: 0px;
+    }
+    .footer-section{
+      padding-block: 32px;
+        display: block;
+        text-align: center;
+        padding-inline: 0px;
+    } 
+    footer img{
+        padding-bottom: 24px;
+    }
+}
+    /* Styles for desktops and large scre

@@ -4,11 +4,12 @@
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
+    
 }
-header{
-    background-image: url(img/market-bgimg.png);
+.header-section{
+    background-image: url(img/sec1-bg-img.png);
     background-repeat: no-repeat;
-    height: 790px;
+    height: 560px;
 }
 nav{
     list-style: none;
@@ -17,7 +18,7 @@ nav{
     font-size: 12px; 
     padding-block: 20px;
     align-items: center;
-    padding-inline: 144px; 
+    border-bottom: 1px solid white;  
 }
 button{
     border: 1px solid white;
@@ -26,13 +27,14 @@ button{
     padding: 10px 20px;
     text-transform: capitalize;
 }
-hr{
-    width: 79%;
+button i{
+    padding-left: 10px;
 }
 ul{
     list-style: none;
     display: flex;
     gap: 56px;
+    margin: 0;
     padding-left: 0;
 }
 a{
@@ -40,140 +42,141 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
-h1{
-    font-size: 58px;
-    line-height: 70px;
-    text-align: center;
-    padding-inline: 403px;
-    padding-top:149px ;
-    color: white;
-}
-h5{
-    text-align: center;
-    font-size: 25px;
-    line-height: 32px;
-    padding-top: 112px;
-    padding-bottom: 35px;
-}
 h2{
-    font-size: 40px;
-    line-height: 40px;
-    text-align: center;
-    padding-top: 112px;
-    padding-bottom: 48px;
-}
-.glance{
-    background-color: #F5F5F5;
-    color: black;
-    padding-top: 1px;
-    padding-bottom: 112px;
-}
-.text {
-    display: flex;
-    margin-left: 196px;
-    gap: 50px;
-  }
-.value {
-    color: gray;
-    font-weight: 300;
-    font-size: 14px;
-    list-style-type: none;
-    padding-top: 10px;
-  }
-  .text2 {
-    padding-bottom: 10px;
-  }
-  .text div {
-    margin-right: 30px;
-  }
-  .text3{
-      margin-top: -8px;
-  }
-  .text div p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 100%;
-    text-align: center;
-  }
-.para{
-      margin-top: 0;
-  }
-.marketing{
-    padding-inline: 144px;
-}
-.grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
-    padding-bottom: 112px;
-    padding-inline: 90px;
-}
-.grid > div {
-    width: 227px;
-    height: 240px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    overflow: hidden;
-}
-.grid p {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    margin: 0;
-    font-size: 18px;
+    font-size: 48px;
+    line-height: 48px;
+    padding-left: 446px;
+    padding-top:119px ;
     color: white;
-    padding: 5px 10px;
-    border-radius: 4px;
 }
-.Multi-Family{
-    background-image:url(img/multi-family.png);  
+h4{
+    padding-top: 129px;
+    padding-left: 267px;
+    color: white;
+    letter-spacing: 66px;
+    font-size: 112px;
+} 
+h5{
+    font-size: 32px;
+    text-align: center;
 }
-.Retail{
-    background-image:url(img/retail.png);
+p{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 }
-.Hotels{
-    background-image:url(img/hotels.png);
+span{ 
+    color: #E03740;
+     font-size: 12px;
 }
-.Restaurants{
-    background-image:url(img/restaurant.png);
+li{
+    padding-bottom: 25px;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center; 
 }
-.Higher{
-    background-image:url(img/higher.png);
+.section2{
+    padding-top: 114px;
+    padding-left: 300px;
 }
-.Entertainment{
-    background-image:url(img/entertainment.png);
+.section2 p{
+    padding-top: 32px;
+    padding-bottom: 112px; 
+    width: 759px;
 }
-.Mixed{
-    background-image:url(img/mixed.png);
+
+.section2 hr{
+    background-color:#E03740 ; 
+    width: 130px;
+    height: 4px;
+    margin-left: 320px;
 }
-.Cannabis{
-    background-image:url(img/cannabis.png);
+.sec2-inner-div{
+    display: flex;
+    padding-inline: 90px;
+    padding-bottom: 112px;
 }
-.Commercial{
-    background-image:url(img/commercial.png);
+.sec2-inner-div2{
+    padding-right: 55px;
 }
-.Parks{
-    background-image:url(img/parks.png);
+.section3 {
+    padding-inline: 37px;
 }
-.Corporate{
-    background-image:url(img/corporate.png);
+.section3 img{
+    width: 100%;
 }
-.Senior{
-    background-image:url(img/senior.png);
+
+.ena-deep{
+    padding-top: 70px;
 }
-.Casinos{
-    background-image:url(img/casinos.png);
+.mepfplv{
+    background-image: url(/img/sec4-bgimg.png) ;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-bottom: 97px;
 }
-.K-12{
-    background-image:url(img/k-12.png);
+.flex-box{
+    display: flex;
+    padding-block: 88px;
+    padding-right: 100px;
 }
-.Data-Centers{
-    background-image:url(img/data-center.png);
+.HVAC{
+    padding-right: 62px;
+    padding-left: 144px;
+} 
+.HVAC p{
+    text-align: start;
 }
-footer span{
-        color: #E03740;
-         font-size: 12px;
+.flex-box2{
+    display: flex;
+    padding-block: 88px;
+    padding-right: 100px;
+}
+.HVAC-2{
+    padding-left: 144px;
+    padding-right: 64px;
+}
+.HVAC-2 p{
+    text-align:start;
+}
+.plumbing{
+    padding-right: 84px;
+    padding-left: 100px;
+    width: 35%;
+}
+.plumbing p{
+    text-align: start;
+}
+.flex-box-3{
+    display: flex;
+    padding-block: 88px;
+    padding-right:50px;
+}
+.img-div{
+    display: flex;
+    gap: 8px;
+}
+.gap{
+    padding-top: 8px;
+}
+.img-div img{
+    width: 55%;
+}
+.security{
+    padding-left: 56px;
+}
+.section-8{
+    display: flex;
+    padding-inline: 1px;
+    padding-bottom: 112px;
+}
+.section-9{
+    display: flex;
+    padding-inline: 114px;
+    padding-bottom: 200px;
+}
+.sec-9-img{
+    padding-right: 56px;
 }
 .footer-inner-div{
     display: flex;
@@ -203,16 +206,41 @@ footer span{
     padding-inline: 144px;
     padding-top: 72px;
     padding-bottom: 77px;
+} 
+
+/* Desktop */
+@media (min-width: 1201px) {
+    /* Styles for desktops and large screens */
+.header-section{
+    padding-inline: 85px;
 }
+h4{
+    padding-left: 290px;
+}
+.plumbing{
+    padding-left: 88px;
+    padding-right: 50px;
+}
+.section-9{
+    padding-inline: 70px;
+}
+.location{
+    padding-left: 590px;
+}
+  
+}
+
 
 /* Mobile (up to 480px or 576px) */
 @media (max-width: 480px) {
-    button{
+     /* Styles for desktops and large screens */
+
+     button{
         display: none;
     }
     nav ul{
         order:2;  
-        font-size: 19px;
+        font-size: 22px;
     }
     nav{
         padding-inline: 16px;
@@ -220,58 +248,131 @@ footer span{
     hr{
         width: 100%;
     }
-    h1{
-        padding-inline: 20px;
-        font-size: 40px;
-    }
-    h5{
-        padding-bottom: 0;
-        padding-inline: 46px;
-        font-size: 40px;
-        line-height: 42px;
-        padding-top: 40px;
-    }
-    .glance{
-        padding-bottom: 0;
-    }
-    .text{
-        margin-left: 0;
-        padding-left: 20px;
-        padding-bottom: 20px;
-        display: block;
-    }
-    .text div p{
-        font-size: 25px;
-    }
-    .text3{
-         padding-left: 28px;
-    }
-    .value{
-        font-size: 20px;
-        padding-left: 43px;
-
-    }
     h2{
-        padding-block: 40px;
+         padding-inline: 66px;
+         text-align: center;
+         font-size: 62px;
+     }
+     h3{
+        font-size: 25px;
+     }
+    h4{
+         padding-top: 190px;
+         padding-left: 26px;
+         letter-spacing: 20px;
+         font-size: 45px;
+     } 
+     h5{
         font-size: 45px;
+     }
+     p{
+        font-size: 23px;
+     }
+     .mepfplv{
+        padding-bottom: 0;
+     }
+     .section2{
+         padding-inline: 5px;
+     }
+     .section2 hr{
+        width: 143px;
+        height: 4px;
+        margin-left: 133px;
     }
-    .grid {
-        grid-template-columns: 1fr;
+     .section2 p{
+         padding-bottom: 0px;
+         width: 100%;
+         padding-inline: 0px;
+         font-size: 23px;
+    }
+     .sec2-inner-div{
+        display: block;
+         padding-inline: 16px;
+         padding-bottom: 40px;
+     }
+     .sec2-inner-div li{
+        font-size: 22px;
+     }
+     .sec2-inner-div2{
+        padding: 0;
+     }
+     .ena-deep{
+        padding-top: 0;
+     }
+     .section3 {
+         padding-inline: 16px;
+         padding-bottom: 40px;
+     }
+     .section3 img{
+         width: 100%;
+     }
+     .HVAC{
+       padding-inline: 10px;
+     } 
+     .HVAC p{
+         text-align: start;
+     }
+     .flex-box{
+        display: block;
+        padding-block: 0px;
         padding-inline: 10px;
-        padding-bottom: 40px;
-    }
-    .grid > div {
+     }
+     .flex-box2{
+        display: block;
+         padding-block: 0px;
+         padding-inline: 10px;
+     }
+     .flex-box-3{
+        display: block;
+         padding-block: 0px;
+         padding-inline: 10px;
+     }
+     .HVAC-2{
+       padding-inline: 16px;
+     }
+     .HVAC-2 p{
+         text-align:start;
+     }
+     .plumbing{
+        padding: 0;
         width: 100%;
-        height: 200px;
-    }
-    .grid p {
-        font-size: 20px;
-        padding: 4px 8px;
-    }
-   .glance{
-        margin-top: -62px;
-    }
-    footer span{
+     }
+     .plumbing p{
+         text-align: start;
+     }
+     .img-div{
+         display: flex;
+         gap: 4px;
+     }
+     .gap{
+         padding-top: 8px;
+     }
+     .gap img{
+            width: 97%;
+     }
+     .img-div img{
+         width: 48%;
+     }
+     .security{
+         padding-inline: 10px;
+     }
+    .section-8{
+         padding-inline: 1px;
+         padding-bottom: 112px;
+     }
+     .section-9{ 
+        display: block;
+         padding-inline: 16px;
+         padding-bottom: 80px;
+     }
+     .section-9 img{
+            width: 100%;
+            padding-left: 0;
+     }
+     .sec-9-img{
+         padding-bottom: 12px;
+     }
+     footer span{
         font-size: 18px;
     }
     footer a{
@@ -285,7 +386,7 @@ footer span{
         padding-left: 0;
     }
     .about-contact{
-        padding-left: 120px;
+        padding-left: 134px;
         padding-bottom: 24px;
         gap: 12px;
     }
@@ -306,5 +407,6 @@ footer span{
     footer img{
         padding-bottom: 24px;
     }
-}
-    /* Styles for desktops and large screens */
+    }
+
+    /* Styles for small mobile devices */
