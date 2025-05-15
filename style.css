@@ -3,6 +3,7 @@
 
 body{
     margin: 0;
+    padding: 0;
     font-family: "Roboto", sans-serif;
     
 }
@@ -10,6 +11,7 @@ body{
     background-image: url(img/sec1-bg-img.png);
     background-repeat: no-repeat;
     height: 560px;
+    padding-inline: 142px;
 }
 nav{
     list-style: none;
@@ -19,6 +21,9 @@ nav{
     padding-block: 20px;
     align-items: center;
     border-bottom: 1px solid white;  
+}
+nav li{
+    font-size: 12px;
 }
 button{
     border: 1px solid white;
@@ -45,9 +50,12 @@ a{
 h2{
     font-size: 48px;
     line-height: 48px;
-    padding-left: 446px;
+    padding-left: 365px;
     padding-top:119px ;
     color: white;
+}
+h3{
+    padding-bottom: 32px;
 }
 h4{
     padding-top: 129px;
@@ -77,7 +85,7 @@ li{
 }
 .section2{
     padding-top: 114px;
-    padding-left: 300px;
+    padding-left: 246px;
 }
 .section2 p{
     padding-top: 32px;
@@ -105,7 +113,6 @@ li{
 .section3 img{
     width: 100%;
 }
-
 .ena-deep{
     padding-top: 70px;
 }
@@ -118,11 +125,10 @@ li{
 .flex-box{
     display: flex;
     padding-block: 88px;
-    padding-right: 100px;
+    padding-right: 75px;
 }
 .HVAC{
-    padding-right: 62px;
-    padding-left: 144px;
+    padding-left: 100px;
 } 
 .HVAC p{
     text-align: start;
@@ -131,18 +137,26 @@ li{
     display: flex;
     padding-block: 88px;
     padding-right: 100px;
+    padding-left: 100px;
 }
 .HVAC-2{
-    padding-left: 144px;
-    padding-right: 64px;
+    padding-left: 35px;
 }
 .HVAC-2 p{
     text-align:start;
+}
+.HVAC-2-img{
+    padding-right: 40px;
 }
 .plumbing{
     padding-right: 84px;
     padding-left: 100px;
     width: 35%;
+}
+.plumbing img{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
 }
 .plumbing p{
     text-align: start;
@@ -159,7 +173,13 @@ li{
 .gap{
     padding-top: 8px;
 }
+.mechanical-img{
+    padding-left: 42px;
+}
 .img-div img{
+    width: 55%;
+}
+.oltage-it-img img{
     width: 55%;
 }
 .security{
@@ -172,11 +192,14 @@ li{
 }
 .section-9{
     display: flex;
-    padding-inline: 114px;
+    padding-left: 75px;
     padding-bottom: 200px;
 }
+.section-9 img{
+    width: 45%;
+}
 .sec-9-img{
-    padding-right: 56px;
+    padding-right: 50px;
 }
 .footer-inner-div{
     display: flex;
@@ -203,7 +226,7 @@ li{
     background-color: black;
     display: flex;
     color: white;
-    padding-inline: 144px;
+    
     padding-top: 72px;
     padding-bottom: 77px;
 } 
@@ -211,9 +234,7 @@ li{
 /* Desktop */
 @media (min-width: 1201px) {
     /* Styles for desktops and large screens */
-.header-section{
-    padding-inline: 85px;
-}
+
 h4{
     padding-left: 290px;
 }
@@ -221,11 +242,11 @@ h4{
     padding-left: 88px;
     padding-right: 50px;
 }
-.section-9{
-    padding-inline: 70px;
+.footer-section{
+    padding-left: 80px;
 }
 .location{
-    padding-left: 590px;
+    padding-left: 770px;
 }
   
 }
@@ -235,21 +256,23 @@ h4{
 @media (max-width: 480px) {
      /* Styles for desktops and large screens */
 
-     button{
+    button{
         display: none;
+    }
+    .header-section{
+        padding-inline: 40px;
     }
     nav ul{
         order:2;  
-        font-size: 22px;
+    }
+    nav li{
+        font-size: 20px;
     }
     nav{
         padding-inline: 16px;
     }
-    hr{
-        width: 100%;
-    }
     h2{
-         padding-inline: 66px;
+         padding-inline: 0px;
          text-align: center;
          font-size: 62px;
      }
@@ -258,7 +281,7 @@ h4{
      }
     h4{
          padding-top: 190px;
-         padding-left: 26px;
+         padding-left: 70px;
          letter-spacing: 20px;
          font-size: 45px;
      } 
@@ -272,12 +295,21 @@ h4{
         padding-bottom: 0;
      }
      .section2{
-         padding-inline: 5px;
+         padding-inline: 20px;
+     }
+     .mechanical-img{
+        padding-left: 10px;
+        padding-bottom: 50px;
+     }
+     .HVAC-2-img{
+        padding-left: 10px;
+        padding-right: 0px;
      }
      .section2 hr{
         width: 143px;
         height: 4px;
-        margin-left: 133px;
+        margin-left: 130px;
+        margin-right: 80px;
     }
      .section2 p{
          padding-bottom: 0px;
@@ -333,9 +365,21 @@ h4{
      .HVAC-2 p{
          text-align:start;
      }
+     .HVAC-2-info{
+        order: 1;
+     }
      .plumbing{
         padding: 0;
         width: 100%;
+     }
+     .plumbing-img{
+        display: flex;
+        padding-right: 35px;
+     }
+     .plumbing-img img{
+            width: 50%;
+            height: 100%;
+            padding-left: 10px;
      }
      .plumbing p{
          text-align: start;

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif; 
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 12px; 
+    padding-block: 20px;
+    align-items: center;
+    border-bottom: 1px solid white;  
+    background-color: #141515;
+    padding-inline: 144px;
+}
+button{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 56px;
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-top: 112px;
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+}
+.contact-div{
+    padding-left: 59px;
+    padding-right: 75px;
+}
+p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+i{
+    padding-left: 8px;
+}
+.mail {
+    padding: 0;
+    padding-block: 40px;
+}
+.mail a{
+    color: #E03740;
+    text-decoration: underline;
+}
+.mail i{
+    padding-right: 8px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #929292;
+    padding-block: 20px;
+    padding-right: 297px;
+    text-transform: capitalize;
+}
+label{
+    color: #929292;
+    font-size:13px;
+}
+.email-lable{
+    padding-top: 29px;
+    padding-bottom: 0;
+}
+form{
+    padding-bottom: 50px;
+}
+form button {
+    margin-top: 32px;
+    width: 130px;
+    height: 45px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    border: 1px solid #E03740;
+    background: none;
+    cursor: pointer;
+    color: #E03740;
+  }
+form button i{
+    padding-left: 5px;
+}
+span{ 
+    color: #E03740;
+     font-size: 12px;
+}
+.footer-inner-div{
+    display: flex;
+}
+.navigation{
+    padding-left: 32px;
+}
+.about-contact{
+    display: flex;
+    gap: 12px;
+}
+.location{
+    display: flex;
+    padding-left: 663px;
+    margin-top: -88px ;
+}
+.email{
+    padding-left: 56px;
+}
+.email a{
+    text-decoration: underline;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-inline: 144px;
+    padding-top: 72px;
+    padding-bottom: 77px;
+}
+
+/* Mobile (up to 480px or 576px) */
+@media (max-width: 480px) {
+    nav button{
+        display: none;
+    }
+    nav ul{
+        order:2;  
+        font-size: 19px;
+    }
+    nav{
+        padding-inline: 16px;
+    }
+    h1{
+        font-size: 45px;
+    }
+    p{
+        font-size: 19px;
+    }
+    a{
+        font-size: 19px;
+    }
+    label{
+        font-size: 19px;
+    }
+    input{
+        font-size: 16px;
+    }
+    .contact-img{
+        order: 2;
+    }
+    section img{
+        width: 100%;
+        height: 100%;
+    }
+    section{
+        flex-direction: column;
+        padding-inline: 16px;
+        padding-top: 0;
+    } 
+    .contact-div{
+        padding:0;
+        order: 1;
+    }
+    .contact-div p{
+        font-size: 19px;
+    }
+    form button{
+        width: 100%;
+        padding-block: 10px;
+        font-size: 19px;
+    }
+    footer span{
+        font-size: 18px;
+    }
+    footer a{
+        font-size: 23px;
+    }
+    .footer-inner-div{
+        display: block;
+    }
+    .navigation{
+        padding-bottom: 24px;
+        padding-left: 0;
+    }
+    .about-contact{
+        padding-left: 161px;
+        padding-bottom: 24px;
+        gap: 12px;
+    }
+    .location{
+        display: block;
+        padding-left: 0px;
+        padding-top: 40px;
+    }
+    .email{
+        padding-left: 0px;
+    }
+    .footer-section{
+      padding-block: 32px;
+        display: block;
+        text-align: center;
+        padding-inline: 0px;
+    } 
+    footer img{
+        padding-bottom: 24px;
+    }
+
+
+}
