@@ -160,6 +160,7 @@ span{
     }
     input{
         font-size: 16px;
+        padding-right: 240px;
     }
     .contact-img{
         order: 2;
