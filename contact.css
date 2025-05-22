@@ -162,7 +162,7 @@ span{
     }
     input{
         font-size: 16px;
-        padding-right: 240px;
+        padding-right: 150px;
     }
     section img{
         width: 100%;
@@ -200,7 +200,7 @@ span{
         padding-left: 0;
     }
     .about-contact{
-        padding-left: 161px;
+        padding-left: 135px;
         padding-bottom: 24px;
         gap: 12px;
     }

@@ -86,7 +86,7 @@ li{
 }
 .section2{
     padding-top: 114px;
-    padding-left: 300p x;
+    padding-left: 300px;
 }
 .section2 p{
     padding-top: 32px;
@@ -151,7 +151,7 @@ li{
 }
 .plumbing{
     padding-right: 84px;
-    padding-left: 100px;
+    padding-left: 114px;
     width: 35%;
 }
 .plumbing img{
@@ -241,7 +241,7 @@ h4{
 }
 .plumbing{
     padding-left: 88px;
-    padding-right: 50px;
+   
 }
 .footer-section{
     padding-left: 80px;
@@ -282,7 +282,7 @@ h4{
      }
     h4{
          padding-top: 190px;
-         padding-left: 70px;
+         padding-left: 35px;
          letter-spacing: 20px;
          font-size: 45px;
      } 
@@ -303,7 +303,7 @@ h4{
         padding-bottom: 50px;
      }
      .hvac-2-img{
-        padding-left: 10px;
+        padding-left: 16px;
         padding-right: 0px;
      }
      .section2 hr{
@@ -348,7 +348,7 @@ h4{
      .flex-box{
         display: block;
         padding-block: 0px;
-        padding-inline: 10px;
+        padding-inline: 20px;
      }
      .flex-box2{
         display: block;
@@ -362,12 +362,11 @@ h4{
      }
      .hvac-2{
        padding-inline: 16px;
+     
      }
      .hvac-2 p{
          text-align:start;
-     }
-     .hvac-2-info{
-        order: 1;
+         
      }
      .plumbing{
         padding: 0;
@@ -431,7 +430,7 @@ h4{
         padding-left: 0;
     }
     .about-contact{
-        padding-left: 134px;
+        padding-left: 120px;
         padding-bottom: 24px;
         gap: 12px;
     }
